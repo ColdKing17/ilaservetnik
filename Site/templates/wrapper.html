@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    {% load staticfiles %}
+    {% comment %}<link rel = "stylesheet" href = "{% static "css/style.css" %}">{% endcomment %}
+    <style>
+     body {
+        background-color: darkgray;
+    }
+    header {
+        height: 40px;
+        width: 100%;
+        background-color: dimgrey;
+        color: black;
+        text-align: center;
+    }
+
+    #center {
+        width: 100%;
+        height: 350px;
+        background-color: dimgrey;
+        text-align: center;
+    }
+
+    footer {
+        height: 40px;
+        width: 100%;
+        background-color: dimgrey;
+        color: black;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <p> Вверх </p>
+    </header>
+
+    <div id = "center">
+        <p>Center</p>
+    </div>
+
+    <footer>
+        <p> Низ </p>
+    </footer>
+</body>
